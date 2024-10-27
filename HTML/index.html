@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kodlama Dergisi</title>
-    <!--Sekme ismi head kısmına title etiketi içerisinde yazılır.-->
+    <!--Sekme ismi head kısmına "title" etiketi içerisinde yazılır.-->
+    <link rel="stylesheet" href="style.css">
+    <!--CSS ile bağlamak için "link" etiketi kullanılır.-->
 </head>
 <body>
     <header> 
@@ -22,7 +24,7 @@
 <nav> 
     <!--"nav" etiketi gezinti için kullanılan ve linkleri içeren kısımdır.-->
 
-    <a href="http://127.0.0.1:5500/HTML/blog.html" target="_blank">BLOG</a>
+    <a href="http://127.0.0.1:5500/blog.html" target="_blank">BLOG</a>
     <!--"a" etiketi link eklerken kullanılır.
     "href" kısmına url konur.
     "target="_blank"" bağlantının yeni sekmede açılmasını sağlar.-->
@@ -39,7 +41,7 @@
     <header>
         
         <h2>Web Sitelerinin Temeli: HTML</h2>
-    <img src="resimler/ada_umursamaz.jpeg" alt="Sinem Umursamaz" width="300px" height="300px">
+    <img src="resimler/ada_umursamaz.jpeg" alt="Sinem Umursamaz" width="200px" height="200px">
     <!--"img" etiketi resim eklemek için kullanılır. 
     "src" kısmına resim dosayasının ismi konumu veya linki yazılır.
     "alt" kısmına resim hakkında bilgi yazılır, herhangi bir sebeple resim görüntülenemezse alt etiketinde yazan bilgi ekranda verilir.
@@ -49,7 +51,7 @@
     <p><strong>Sinem Umursamaz</strong> tarafından Pazartesi, 21 Haziran 2027 tarihinde yayınlanmıştır.</p>
     <!--"p" etiketi ile paragraf yazılır.-->
     
-    <img src="kod_resmi.jpeg">
+    <img src="kod_resmi.jpeg" width="500px">
 
 
     </header>
@@ -74,7 +76,7 @@
 
     <p>Daha ayrıntılı bilgiyi <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a> aracılığıyla ulaşabilirsiniz.</p>
     <h3>Neden HTML öğrenmeliyiz?</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlMyzfmXp2bWMGCMLw2JC4uXpXR1qEGTCBvw&s" alt="internetten alınmış fotoğraf" width="300px">
+    <img src="https://bilisim.io/wp-content/uploads/2017/02/Kendi-Kendine-Kod-Yazan-Yapay-Zeka-Resim-2.jpg" alt="internetten alınmış fotoğraf" width="300px">
     <p>Web'in temel dilini öğrenmek için birçok nedeniniiz olmakla birlikte, aşağıda sizin için 5 neden sayabilirim:</p>
     <ul>
         <!--"ul" etiketi düzensiz liste oluşturulurken kullanılır.-->
@@ -93,10 +95,10 @@
     <h2>İlgili Konular👍</h2>
     <li><img src="ilgili_resim_1.jpg" alt="kod yazan adam" width="75px">
     <a href="">Web Tasarımı Nasıl Öğrenilir?</a>
-<p>Çağlar Akar tarafından hazırlanmıştır.</p></li>
+<p class="yazar1">Çağlar Akar tarafından hazırlanmıştır.</p></li>
     <li><img src="ilgili_resim_2.jpg" alt="" width="75px">
     <a href=""> CSS'in Bilinmeyen Gücü</a>
-<p>Alper Çeltikçi tarafından hazırlanmıştır.</p></li>
+<p id="yazar2">Alper Çeltikçi tarafından hazırlanmıştır.</p></li>
     <li><img src="ilgili_resim_3.jpg" alt="" width="75px">
     <a href="">JavaScript Neden Muhteşem?</a>
 <p>Ada Uslanmaz tarafından hazırlanmıştır.</p></li>

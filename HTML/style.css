@@ -1,0 +1,38 @@
+aside{
+    background-color: #f4ede4;
+    border-bottom: 5px dashed #503006;
+    border-top: 5px dashed #503006;
+}
+
+
+h1{
+    font-family: sans-serif;
+}
+
+
+h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img{
+    border: dashed #503006;
+}
+
+body{
+    background-color: #f4ede4;
+}
+
+.yazar1{
+    font-style: italic;
+}
+/* "class" ile etiketlendiyse başına "." konur.*/
+
+#yazar2{
+    font-style: italic;
+}
+/* "id" ile etiketlendiyse başına "#" konur.*/
