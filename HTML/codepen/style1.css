@@ -1,0 +1,42 @@
+article{
+    border: solid 4px;
+  }
+  
+  h2{
+    background-color: lightgray;
+    font-family: sans-serif;
+  }
+  
+  body{
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  .product-title{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  a:link{
+    color: black;
+  }
+  
+  a:visited{
+    color: black;
+  }
+  
+  a:hover{
+    color: brown;
+  }
+  
+  p strong{
+    font-size: 30px;
+  }
+  
+  h3{
+    text-transform: uppercase;
+  }
+  
+  button:hover{
+    color: red;
+  }

@@ -36,3 +36,109 @@ body{
     font-style: italic;
 }
 /* "id" ile etiketlendiyse başına "#" konur.*/
+
+a{
+    color: rgb(81, 81, 214);
+
+}
+
+body{
+    border: solid 4px #5656b1;
+}
+
+img, p, h2, h3, ol, ul, aside, footer{
+    margin: 5px;
+}
+
+a{
+    margin: 3px;
+}
+
+
+/* li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(2) {
+  color: red;
+}
+li:nth-child(odd) {
+  color: green;
+} 
+  
+"odd" tek sayılar için kullanılır.
+ */
+
+
+article p:first-child {
+    color: rgb(30, 110, 181);
+}
+  /* Bu kod çalışmaz çünkü article in ilk elemanı paragraf değil. */
+
+
+article p:last-child {
+    color: #5f2be3 ;
+}
+
+a:link{
+    color: #5656b1;
+    text-decoration: underline dotted;
+}
+
+a:hover{
+    color: rgb(78, 22, 22);
+    font-weight: 550;
+}
+
+/*
+a:visited{
+    color: hsl(262, 96%, 22%);
+}
+*/
+
+a:active{
+    color: hsl(264, 77%, 42%);
+}
+
+#telif {
+    color: rgb(62, 7, 134);
+    font-size: 14px;
+  }
+.telif {
+    color: blue;
+  }
+.metin {
+    color: pink;
+  }
+
+/* Styling Hyperlinks
+-link
+-active
+-hover
+-visited 
+*/
+
+
+/* Seçim karmaşasının engellenmesi için öncelik sırasına dikkat edilmesi gereklidir. Öncelik id etiketindedir.
+footer p {
+    color: green;
+  }
+  #telif {
+    color: red;
+    font-size: 14px;
+  }
+  .telif {
+    color: blue;
+  }
+  .metin {
+    color: pink;
+  }
+
+ Eğer tekrar elaman seçimi yapıp sonuna !important etiketini koyarsak işlem değişir.
+
+  footer p {
+    color: green !important;
+  } 
+*/
