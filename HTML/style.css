@@ -21,6 +21,7 @@ p{
 
 header img{
     border: dashed #503006;
+    border-radius: 15px;
 }
 
 body{
@@ -141,4 +142,37 @@ footer p {
   footer p {
     color: green !important;
   } 
-*/
+*/ 
+
+
+body{
+  margin: 30px;
+}
+
+img{
+  margin-left: 10px;
+}
+
+button{
+  background-color: rgba(107, 16, 198, 0.538);
+  border-radius: 6px;
+  font-style: oblique;
+}
+
+button:hover{
+  background-color:#5148b4;
+  color: rgb(163, 170, 177);
+  font-size: small;
+  box-shadow: #0e0622 0px 15px 50px;
+}
+
+nav a:link{
+  background-color: #c3c0ed;
+  border-radius: 9px;
+  padding: 5px;
+}
+
+/*.container{
+  width: 800px;
+  margin: 0 auto;
+ } */

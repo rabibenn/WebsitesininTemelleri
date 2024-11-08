@@ -1,4 +1,14 @@
-article{
+  *{
+   margin: 0;
+   padding: 0;
+  }
+
+  article{
+   width: 825px;
+   margin: 50px auto;
+  }
+
+  article{
     border: solid 4px;
   }
   
@@ -40,3 +50,65 @@ article{
   button:hover{
     color: red;
   }
+
+  ul li{
+    margin-left: 20px;
+    margin: 20px;
+  }
+  
+  h3{
+    margin-top: 20px;
+  }
+  
+  p{
+    margin-top: 20px;
+  }
+  
+  .price{
+    margin: 0;
+  }
+  
+  .shipping{
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  img{
+    margin: 15px;
+    margin-bottom: 1px;
+  }
+
+  button{
+    width: 100%;
+    border: 5px solid;
+  }
+
+  .add-cart {
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top:5px solid black;
+  }  
+  
+  .add-cart:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .product-title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+  }
+
+
+  
+  
+

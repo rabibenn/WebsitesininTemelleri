@@ -1,111 +1,125 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kodlama Dergisi</title>
     <!--Sekme ismi head kısmına "title" etiketi içerisinde yazılır.-->
     <link rel="stylesheet" href="style.css">
     <!--CSS ile bağlamak için "link" etiketi kullanılır.-->
+
 </head>
 <body>
-    <header> 
-        <!--"header" etiketi bir döküman veya bir bölüm için başlık olduğunu gösterir.-->
 
-        <h1>📘 Kodlama Dergisi</h1>
-    <!--Başlık yazarken kullanılır.
-    "h1" en büyük, "h6" en küçük olmak üzere büyükten küçüğe doğru sıralanır.-->
+     <div class="container">
+
+<header> 
+         <!--"header" etiketi bir döküman veya bir bölüm için başlık olduğunu gösterir.-->
+
+         <h1>📘 Kodlama Dergisi</h1>
+         <!--Başlık yazarken kullanılır.
+         "h1" en büyük, "h6" en küçük olmak üzere büyükten küçüğe doğru sıralanır.-->
     
-    <!--<h2>📘 Kodlama Dergisi</h2>
-    <h3>📘 Kodlama Dergisi</h3>
-    <h4>📘 Kodlama Dergisi</h4>
-    <h5>📘 Kodlama Dergisi</h5>
-    <h6>📘 Kodlama Dergisi</h6> -->
-<nav> 
-    <!--"nav" etiketi gezinti için kullanılan ve linkleri içeren kısımdır.-->
+         <!--<h2>📘 Kodlama Dergisi</h2>
+         <h3>📘 Kodlama Dergisi</h3>
+         <h4>📘 Kodlama Dergisi</h4>
+         <h5>📘 Kodlama Dergisi</h5>
+         <h6>📘 Kodlama Dergisi</h6> -->
+ <nav> 
+         <!--"nav" etiketi gezinti için kullanılan ve linkleri içeren kısımdır.-->
 
-    <a href="http://127.0.0.1:5500/blog.html" target="_blank">BLOG</a>
-    <!--"a" etiketi link eklerken kullanılır.
-    "href" kısmına url konur.
-    "target="_blank"" bağlantının yeni sekmede açılmasını sağlar.-->
+         <a href="http://127.0.0.1:5500/blog.html" target="_blank">BLOG</a>
+         <!--"a" etiketi link eklerken kullanılır.
+         "href" kısmına url konur.
+         "target="_blank"" bağlantının yeni sekmede açılmasını sağlar.-->
 
-    <a href="">CHALLENGES</a>
-    <a href="">FLEXBOX</a>
-    <a href="">CSS</a>
-    <a href="">GRİD</a>
-</nav>
-   </header>
-   <article>
-    <!--"article" etiketi bağımsız ve kendi kendine yeten içeriği belirtir.-->
+     <a href="">CHALLENGES</a>
+     <a href="">FLEXBOX</a>
+     <a href="">CSS</a>
+     <a href="">GRİD</a>
+ </nav>
 
-    <header>
+</header>
+
+ <article>
+         <!--"article" etiketi bağımsız ve kendi kendine yeten içeriği belirtir.-->
+
+<header>
         
-        <h2>Web Sitelerinin Temeli: HTML</h2>
-    <img src="resimler/ada_umursamaz.jpeg" alt="Sinem Umursamaz" width="200px" height="200px">
-    <!--"img" etiketi resim eklemek için kullanılır. 
-    "src" kısmına resim dosayasının ismi konumu veya linki yazılır.
-    "alt" kısmına resim hakkında bilgi yazılır, herhangi bir sebeple resim görüntülenemezse alt etiketinde yazan bilgi ekranda verilir.
-    "width" etiketi boyutu ayarlar.
-    "height" etiketi genişliği ayarlar.-->
+         <h2>Web Sitelerinin Temeli: HTML</h2>
+         <img src="resimler/ada_umursamaz.jpeg" alt="Sinem Umursamaz" width="200px" height="200px">
+         <!--"img" etiketi resim eklemek için kullanılır. 
+         "src" kısmına resim dosayasının ismi konumu veya linki yazılır.
+         "alt" kısmına resim hakkında bilgi yazılır, herhangi bir sebeple resim görüntülenemezse alt etiketinde yazan bilgi ekranda verilir.
+         "width" etiketi boyutu ayarlar.
+         "height" etiketi genişliği ayarlar.-->
 
-    <p><strong>Sinem Umursamaz</strong> tarafından Pazartesi, 21 Haziran 2027 tarihinde yayınlanmıştır.</p>
-    <!--"p" etiketi ile paragraf yazılır.-->
+         <p><strong>Sinem Umursamaz</strong> tarafından Pazartesi, 21 Haziran 2027 tarihinde yayınlanmıştır.</p>
+         <!--"p" etiketi ile paragraf yazılır.-->
     
-    <img src="kod_resmi.jpeg" width="500px">
+         <img src="kod_resmi.jpeg" width="500px">
 
 
-    </header>
-    <p>Bütün modern web siteleri ve uygulamaları 3 <em><strong>temel</strong></em> teknoloji üzerine inşa edilmiştir: HTML, CSS ve JavaScript. Bu üç teknoloji web'in temel dilleridir.</p>
-    <!--"em" etiketi metni italik yazar.
-    "strong" etiketi metni kalın yazar.-->
+</header>
 
-    <p>Bu postda, haydi HTML üzerine odaklanalım. Birlikte HTML'in ne olduğunu ve neden öğrenmemiz gerektiğini öğreneceğiz.</p>
-    <h3>HTML Nedir?</h3>
-    <p> HTML <em><strong>HyperText Markup Language</strong></em> kelimelerinin kısaltmasıdır. HTML bir programlama dili değildir. Bir işaretleme dili denilebilir. Web geliştiriciler bu dili web sayfalarını düzenlemek ve şekillendirmek için kullanırlar.</p>
-    <p>HTML, bu işlemlerde değişik tiplerde elemanlar kullanır; paragraflar, linkler, başlıklar, resimler, videolar vb. Web tarayıcıları HTML dilini ve HTML ile yazılan kodları websitesi bileşenleri olarak algılarlar.</p>
+         <p>Bütün modern web siteleri ve uygulamaları 3 <em><strong>temel</strong></em> teknoloji üzerine inşa edilmiştir: HTML, CSS ve JavaScript. Bu üç teknoloji web'in temel dilleridir.</p>
+         <!--"em" etiketi metni italik yazar.
+         "strong" etiketi metni kalın yazar.-->
+
+         <p>Bu postda, haydi HTML üzerine odaklanalım. Birlikte HTML'in ne olduğunu ve neden öğrenmemiz gerektiğini öğreneceğiz.</p>
+         <h3>HTML Nedir?</h3>
+         <p> HTML <em><strong>HyperText Markup Language</strong></em> kelimelerinin kısaltmasıdır. HTML bir programlama dili değildir. Bir işaretleme dili denilebilir. Web geliştiriciler bu dili web sayfalarını düzenlemek ve şekillendirmek için kullanırlar.</p>
+         <p>HTML, bu işlemlerde değişik tiplerde elemanlar kullanır; paragraflar, linkler, başlıklar, resimler, videolar vb. Web tarayıcıları HTML dilini ve HTML ile yazılan kodları websitesi bileşenleri olarak algılarlar.</p>
    
-    <p>HTML' de, her eleman 3 farklı alt bölümden oluşur:</p>
+         <p>HTML' de, her eleman 3 farklı alt bölümden oluşur:</p>
     <ol>
-        <!--"ol" etiketi düzenli(sıralı) liste oluştururken kullanılır.-->
+         <!--"ol" etiketi düzenli(sıralı) liste oluştururken kullanılır.-->
 
-        <li>Açılış etiketi</li>
-        <li>Kapanış etiketi</li>
-        <li>Eleman içeriği</li>
-        <!--"li" etiketi her bir liste ögesi için yazılır.-->
+         <li>Açılış etiketi</li>
+         <li>Kapanış etiketi</li>
+         <li>Eleman içeriği</li>
+         <!--"li" etiketi her bir liste ögesi için yazılır.-->
     </ol>
 
-    <p>Daha ayrıntılı bilgiyi <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a> aracılığıyla ulaşabilirsiniz.</p>
-    <h3>Neden HTML öğrenmeliyiz?</h3>
-    <img src="https://bilisim.io/wp-content/uploads/2017/02/Kendi-Kendine-Kod-Yazan-Yapay-Zeka-Resim-2.jpg" alt="internetten alınmış fotoğraf" width="300px">
-    <p>Web'in temel dilini öğrenmek için birçok nedeniniiz olmakla birlikte, aşağıda sizin için 5 neden sayabilirim:</p>
+         <p>Daha ayrıntılı bilgiyi <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"  >MDN Web Docs</a> aracılığıyla ulaşabilirsiniz.</p>
+         <h3>Neden HTML öğrenmeliyiz?</h3>
+         <img src="https://bilisim.io/wp-content/uploads/2017/02/Kendi-Kendine-Kod-Yazan-Yapay-Zeka-Resim-2.jpg" alt="internetten alınmış fotoğraf" width="300px">
+         <p>Web'in temel dilini öğrenmek için birçok nedeniniiz olmakla birlikte, aşağıda sizin için 5 neden sayabilirim:</p>
     <ul>
-        <!--"ul" etiketi düzensiz liste oluşturulurken kullanılır.-->
-        <li>Web geliştirmenin temel dilini kullanabilmek.</li>
-        <li>İçerik ve yapı açısından nitelikli web sitelerini Wordpress ve Wix gibi hazır şablonlardan faydalanmadan hazırlayabilmek.</li>
-        <li>Web uygulamaları yapabilmek.</li>
-        <li>Kendi işimiz için gerekli websitelerini sürekli güncel tutabilmek.</li>
-        <li>Sadece eğlenmek için😄</li>
+         <!--"ul" etiketi düzensiz liste oluşturulurken kullanılır.-->
+         <li>Web geliştirmenin temel dilini kullanabilmek.</li>
+         <li>İçerik ve yapı açısından nitelikli web sitelerini Wordpress ve Wix gibi hazır şablonlardan faydalanmadan hazırlayabilmek.</li>
+         <li>Web uygulamaları yapabilmek.</li>
+         <li>Kendi işimiz için gerekli websitelerini sürekli güncel tutabilmek.</li>
+         <li>Sadece eğlenmek için😄</li>
     </ul>
 
-    <p>Ümit ederim ki burada yeni bir yetenek kazanacaksınız. Bir sonraki sefer görüşmek üzere!</p>
-   </article>
-   <aside>
-    <!--"aside" etiketi yerleştirildiği içeriğin dışında bir içeriği tanımlar.-->
+         <p>Ümit ederim ki burada yeni bir yetenek kazanacaksınız. Bir sonraki sefer görüşmek üzere!</p>
 
-    <h2>İlgili Konular👍</h2>
-    <li><img src="ilgili_resim_1.jpg" alt="kod yazan adam" width="75px">
-    <a href="">Web Tasarımı Nasıl Öğrenilir?</a>
-<p class="yazar1">Çağlar Akar tarafından hazırlanmıştır.</p></li>
-    <li><img src="ilgili_resim_2.jpg" alt="" width="75px">
-    <a href=""> CSS'in Bilinmeyen Gücü</a>
-<p id="yazar2">Alper Çeltikçi tarafından hazırlanmıştır.</p></li>
-    <li><img src="ilgili_resim_3.jpg" alt="" width="75px">
-    <a href="">JavaScript Neden Muhteşem?</a>
-<p>Ada Uslanmaz tarafından hazırlanmıştır.</p></li>
-</aside>
+ </article>
+
+ <aside>
+         <!--"aside" etiketi yerleştirildiği içeriğin dışında bir içeriği tanımlar.-->
+
+         <h2>İlgili Konular👍</h2>
+         <li><img src="ilgili_resim_1.jpg" alt="kod yazan adam" width="75px">
+         <a href="">Web Tasarımı Nasıl Öğrenilir?</a>
+         <p class="yazar1">Çağlar Akar tarafından hazırlanmıştır.</p></li>
+         <li><img src="ilgili_resim_2.jpg" alt="" width="75px">
+         <a href=""> CSS'in Bilinmeyen Gücü</a>
+         <p id="yazar2">Alper Çeltikçi tarafından hazırlanmıştır.</p></li>
+         <li><img src="ilgili_resim_3.jpg" alt="" width="75px">
+         <a href="">JavaScript Neden Muhteşem?</a>
+         <p>Ada Uslanmaz tarafından hazırlanmıştır.</p></li>
+ </aside>
+
+         <a href="https://i.pinimg.com/736x/d9/cf/6d/d9cf6dab7b12a8296deb0f7901a33638.jpg" target="_blank"><button> Minik bir sürpriz...</button></a>
 
 <footer id="telif" class="telif metin"><em>Telif hakları &copy; Kodlama Dergisi'ne aittir.</em></footer>
-<!--"footer" etiketi altbilgi(telif vb.) tanımlamak için kullanılır.-->
+         <!--"footer" etiketi altbilgi(telif vb.) tanımlamak için kullanılır.-->
+
+     </div>
 
 </body>
 </html>
