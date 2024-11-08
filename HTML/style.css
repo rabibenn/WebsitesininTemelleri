@@ -10,7 +10,7 @@ h1{
 }
 
 
-h2,h3{
+h2, h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -40,7 +40,6 @@ body{
 
 a{
     color: rgb(81, 81, 214);
-
 }
 
 body{
@@ -56,7 +55,8 @@ a{
 }
 
 
-/* li:first-child {
+/* 
+li:first-child {
   font-weight: bold;
 }
 li:last-child {
@@ -76,7 +76,7 @@ li:nth-child(odd) {
 article p:first-child {
     color: rgb(30, 110, 181);
 }
-  /* Bu kod çalışmaz çünkü article in ilk elemanı paragraf değil. */
+/* Bu kod çalışmaz çünkü article in ilk elemanı paragraf değil. */
 
 
 article p:last-child {
@@ -107,10 +107,12 @@ a:active{
     color: rgb(62, 7, 134);
     font-size: 14px;
   }
+
 .telif {
     color: blue;
   }
-.metin {
+
+.metin{
     color: pink;
   }
 
