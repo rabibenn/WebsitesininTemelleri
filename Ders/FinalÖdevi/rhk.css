@@ -1,0 +1,126 @@
+*{
+    font-family: sans-serif  !important;
+    line-height: 25px;
+    margin: auto;
+    padding: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(122, 104, 118, 0.288);
+    border-left: solid 3px rgba(0, 0, 0, 0.392);
+    border-right: solid 3px rgba(0, 0, 0, 0.392);
+    margin: 100px 100px 0px 100px;
+}
+
+header{
+    background-color: rgba(63, 14, 51, 0.458);
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgba(1, 0, 0, 0.386);
+    font-family: sans-serif !important;
+}
+
+nav{
+    text-align: end;
+    margin-right: 8px;
+}
+
+nav a{
+    color: rgba(13, 7, 7, 0.649);  
+    padding: 6px;
+}
+
+nav a:hover{
+    color: rgba(80, 7, 83, 0.619);
+}
+
+.loloko{
+    display: flex;
+}
+
+h4{
+    font-size: 22px;
+    font-family: serif;
+    padding: 2px;
+    padding-top: 9px;
+}
+
+.lolokoyutaniyin{
+    font-style: italic;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.625);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.loloko img{
+    width: 150px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+article{
+    margin: 15px;
+    border-left: solid 12px rgba(0, 0, 0, 0.66);
+    background-color: rgba(110, 60, 131, 0.241);
+    margin-top: 130px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns:  repeat(2, 300px);
+    grid-template-rows: 300px;
+    margin: 10px 200px 0px 200px;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.grid img{
+    width: 200px;
+}
+
+.iki, .dort, .alti{
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.iki{
+    background-color: rgba(65, 34, 104, 0.419);
+}
+
+.dort{
+    background-color: rgba(0, 0, 0, 0.353);
+}
+
+.alti{
+    background-color: rgba(43, 43, 122, 0.353);
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    
+}
+

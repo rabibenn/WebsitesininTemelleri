@@ -1,0 +1,197 @@
+*{
+    font-family: sans-serif  !important;
+    line-height: 25px;
+    margin: auto;
+    padding: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(122, 104, 118, 0.288);
+    border-left: solid 3px rgba(0, 0, 0, 0.392);
+    border-right: solid 3px rgba(0, 0, 0, 0.392);
+    margin: 0px 200px 0px 200px;
+}
+
+header{
+    background-color: rgba(63, 14, 51, 0.458);
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgba(1, 0, 0, 0.386);
+    font-family: sans-serif !important;
+}
+
+nav{
+    text-align: end;
+    margin-right: 8px;
+}
+
+nav a{
+    color: rgba(13, 7, 7, 0.649);  
+    padding: 6px;
+}
+
+nav a:hover{
+    color: rgba(80, 7, 83, 0.619);
+}
+
+.loloko{
+    display: flex;
+}
+
+h4{
+    font-size: 22px;
+    font-family: serif;
+    padding: 2px;
+    padding-top: 9px;
+}
+
+.lolokoyutaniyin{
+    font-style: italic;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.625);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.loloko img{
+    width: 150px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+article{
+    margin: 15px;
+    border-left: solid 12px rgba(0, 0, 0, 0.66);
+    background-color: rgba(110, 60, 131, 0.241);
+    margin-top: 130px;
+}
+
+aside{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(50, 41, 54, 0.252);
+    border: solid 2px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.584);
+}
+
+.cont{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.cont p{
+    padding-left: 50px;
+}
+
+.cont img{
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.cont img:hover{
+    background-color: rgba(0, 0, 0, 0.408);
+}
+
+.hali img{
+    width: 200px;
+    height: 180px;
+}
+
+.pors img{
+    width: 200px;
+    height: 180px;
+}
+
+.tas img{
+    width: 150px;
+    height: 180px;
+}
+
+.amigurumi img{
+    width: 150px;
+    height: 180px;
+}
+
+section{
+    margin: 15px;
+    color: rgba(0, 0, 0, 0.57);
+}
+
+section img{
+    width: 200px;
+    margin-right: 10px;
+}
+
+#hd{
+    display: flex;
+    border: dashed 3px;
+    padding: 15px;
+    border-radius: 10px;
+}
+    
+
+#pb{
+    display: flex;
+    border: dashed 3px;
+    padding: 15px;
+    border-radius: 10px; 
+}
+
+#tb{
+    display: flex;
+    border: dashed 3px;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+
+#a{
+    display: flex;
+    border: dashed 3px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.lolokosaygoodbye{
+    font-style: italic;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.625);
+}
+
+.lolokosaygoodbye{
+    font-style: italic;
+    padding: 2px;
+    color: rgba(0, 0, 0, 0.625);
+}
+
+.iki{
+    margin: 15px;
+    border-left: solid 7px rgba(0, 0, 0, 0.66);
+}
+   
+footer{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+
+
+
+
